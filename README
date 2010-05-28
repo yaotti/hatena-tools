@@ -1,0 +1,6 @@
+□hgk.pl
+hatena group keyword writer
+execute hgk.pl -h to view help
+
+□hatena-group-keyword-mode.el
+Emacs interface for hgk.pl like simple-hatena-mode.el
