@@ -233,7 +233,17 @@ sub main {
     );
     bootstrap(@ARGV);
     login;
-    update_group_keyword;
+    my $ok = update_group_keyword;
+    unless ($ok) {
+        # try again
+        unlink($cookie_file);
+        login;
+        $ok = update_group_keyword;
+        unless ($ok) {
+            say "Can't post";
+            return;
+        }
+    }
     logout;
 }
 
