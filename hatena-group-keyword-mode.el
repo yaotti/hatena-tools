@@ -1,5 +1,5 @@
-;;; -*- coding: utf-8; mode: emacs-lisp; indent-tabs-mode: nil -*-
 ;;; hatena-group-keyword-mode.el --- Emacs interface to Hatena Group Keyword Writer
+;;; -*- coding: utf-8; mode: emacs-lisp; indent-tabs-mode: nil -*-
 
 ;; Copyright (C) 2009 Hiroshige Umino
 ;; Author: Hiroshige Umino <yaotti@gmail.com>
